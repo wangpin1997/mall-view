@@ -122,7 +122,7 @@
           if (valid) {
             let isSupport = getSupport();
             if(isSupport===undefined||isSupport==null){
-              this.dialogVisible =true;
+              // this.dialogVisible =true;
               return;
             }
             this.loading = true;
